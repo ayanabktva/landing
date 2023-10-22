@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 15px;
+    min-height: 10px;
+}
+.hero {
+    background: url(https://s3-alpha-sig.figma.com/img/6404/f1c2/4f8273c03b669d7a2a20c6874dd7a19e?Expires=1698019200&Signature=bYgNn-lt-aQ2nRCExkZ5VF-EbLce8RDOtAcumdKDOvcohc471N1fWLteh1FRFtQgr8MlSBHoIkto7EFmdxB-6wzsq0KTBhcr8K50b0MX0Ld9Y6hNO2BaIZ6-lpnkrsl5QVzRUXK4Eh1Y6OtqAorhY2KZYkgpzP3R1rliY5ztzmDZ3QCtApD2dMCTWohKBNGA1hGEIs0UbG~wJEaWByBW2C9bYnC~zTFIplFfDSVL1SqDBJPKCDS-qaNdOzG5SgJ1QMEnM6vAyoZt0kHxiSsWjdFOX9jYNk0pLJ5hniclMR1Ii0c04TofgX2StvkzCD0QhEmZp49RgwPecsJwiNsIAA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+        center / cover;
+    height: 750px;
+}
+
+.header {
+    padding: 18px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.q {
+    text-decoration: none;
+}
+
+.logo {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.land {
+    color: white;
+    font-size: 29px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ing {
+    color: #ffc80a;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.nav {
+    margin: 0 40px 0 auto;
+}
+
+.nav__link {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.link {
+    color: white;
+}
+
+.hero-info {
+    padding: 100px 0 0 0;
+    width: 575.5px;
+}
+
+.hero-pretitle {
+    color: #fff;
+    line-height: normal;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 72px;
+    max-width: 575.5px;
+}
+
+.btn {
+    width: 172px;
+    height: 48px;
+    color: #292929;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    border-radius: 49.5px;
+    background: #ffc80a;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-ptetitle {
+        font-size: 40px;
+    }
+}
+
+.popular {
+    margin: 100px 0;
+}
+
+.popular-header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.popular-title {
+    margin: 0;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 auto;
+}
+
+.popular-header-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.popular-header-btn span {
+    color: #212121;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+}
+
+.shuffle {
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.popular-cards {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.popular-card {
+    border-radius: 8px;
+    background-color: #f7f8f9;
+    overflow: hidden;
+}
+
+.popular-card-info {
+    padding: 25px;
+}
+.popular-card-title {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+}
+.popular-card-text {
+    color: #9fa3a7;
+    font-size: 14px;
+    font-weight: 400;
+    list-style: 26px;
+    margin: 6px 0 15px;
+}
+
+.popular-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-card-icon {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.popular-card-icon {
+    color: #9fa3a7;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.big-card {
+    grid-column: 2/4;
+}
+
+@media screen and (max-width: 428px) {
+    .popular-card-info {
+        display: none;
+    }
+    .popular-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
